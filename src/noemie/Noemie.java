@@ -14,11 +14,14 @@ public class Noemie {
     /**
      * @param args the command line arguments
      */
+    static int i = 0;
     public static void main(String[] args) {
         System.out.println("Hello word !");
         Lapin lap = new Lapin("Panpan", 4);
-        lap.crier();
-        
+        while(i < 10){
+            lap.crier();
+            i = i + 1;
+        }
     }
     
 }
