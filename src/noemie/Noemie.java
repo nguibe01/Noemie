@@ -7,7 +7,7 @@ package noemie;
 
 /**
  *
- * @author Mes Documents
+ * @author Noëmie
  */
 public class Noemie {
 
@@ -15,7 +15,10 @@ public class Noemie {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Hello word !");
+        Lapin lap = new Lapin("Panpan", 4);
+        lap.crier();
+        
     }
     
 }
